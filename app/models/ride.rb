@@ -14,7 +14,7 @@ def take_ride
       user.nausea += attraction.nausea_rating
       user.happiness += attraction.happiness_rating
       user.save
-      "Thanks for riding the #{attraction.name}"
+      "Thanks for riding the #{attraction.name}!"
     end
   end
 
