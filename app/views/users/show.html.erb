@@ -11,5 +11,6 @@
     <p>Mood: <%= @user.mood %></p><br>
     <p>Height: <%= @user.height %></p><br>
   <% end %>
+  <br>
   <%= link_to "See attractions", attractions_path %><br>
   <%= link_to "Log Out", logout_path, method: :post %>
