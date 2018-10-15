@@ -3,7 +3,7 @@
 <% end %>
 
 <% if @user.admin %>
-  <p>ADMIN</p>
+  <p>ADMIN</p><%= @user.name %>
   <% else %>
     <p>Name: <%= @user.name %></p><br>
     <p>Tickets: <%= @user.tickets %></p><br>
